@@ -1,4 +1,3 @@
-from abc import abstractmethod
 from typing import TYPE_CHECKING, Generic, Hashable, Protocol, TypeVar
 
 if TYPE_CHECKING:
@@ -6,9 +5,8 @@ if TYPE_CHECKING:
 
 
 ST = TypeVar("ST", bound=Hashable)  # State type
-AT = TypeVar("AT")  # Action type
 
-class PQType(Protocol, Generic[ST, AT]):
-    def push(self, node: "Node[ST, AT]") -> None: ...
-    def pop(self) -> "Node[ST, AT]": ...
+class PQType(Protocol, Generic[ST]):
+    def push(self, node: "Node[ST]") -> None: ...
+    def pop(self) -> "Node[ST]": ...
     def __len__(self) -> int: ...
