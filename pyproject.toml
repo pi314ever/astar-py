@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "astar-py"
+name = "graph_search_py"
 version = "0.1.0"
-description = "A* pure python packages with minimal dependancies. Provides various implementations for graph search."
+description = "A simple graph search library for Python."
 authors = ["pi314ever <pilotflyer824@gmail.com>"]
 readme = "README.md"
-packages = [{include = "astar_py"}]
+packages = [{include = "graph_search_py"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"

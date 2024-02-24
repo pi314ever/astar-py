@@ -26,7 +26,7 @@ def test_astar():
         expand_state_fn=expand_state_fn,
         is_solved_fn=lambda state: state == (9, 9),
         max_steps=20,
-        stop_at_goal=True,
+        stop_when_solved=True,
     )
 
     astar.search()
