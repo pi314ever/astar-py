@@ -1,5 +1,5 @@
-from astar_py.priority_queue import PriorityQueue, DoubleEndedPriorityQueue
-from astar_py.node import Node
+from graph_search_py.priority_queue import PriorityQueue, DoubleEndedPriorityQueue
+from graph_search_py.node import Node
 
 def test_priority_queue():
     pq = PriorityQueue()

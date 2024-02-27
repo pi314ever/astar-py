@@ -1,6 +1,6 @@
 import pytest
 
-from astar_py.node import Node
+from graph_search_py.node import Node
 
 @pytest.fixture
 def node():

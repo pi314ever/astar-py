@@ -1,6 +1,6 @@
-# AStar-py
+# graph_search_py
 
-A pure python package for astar search.
+A pure python package for graph search algorithms.
 
 Currently still in development.
 
@@ -8,20 +8,26 @@ Currently still in development.
 
 Through `pip`:
 ```sh 
-pip install astar_py
+pip install graph_search_py
 ```
 
 Through poetry:
 ```sh
-poetry add astar_py
+poetry add graph_search_py
 ```
 ## Features
 
+- (WIP) Unified interface for discrete graph search algorithms
+
+- (WIP) A* algorithm for graph search
 - (WIP) Traditional A* algorithm utilizing heuristic search
 - (WIP) Batched A* algorithm for efficient batch calculations of operations
 - (WIP) Pruned frontier search
 - (WIP) Blind search, where no target goal state is set.
 - (WIP) Search after goal is found. This may be used to find a variety of paths to the goal state within a search budget.
+
+- (WIP) Greedy Best First Search (GBFS)
+- (WIP) Dijkstra's algorithm
 
 ## Usage
 

@@ -1,4 +1,4 @@
-from astar_py.astar import AStar
+from graph_search_py.astar import AStar
 
 
 def test_astar():
